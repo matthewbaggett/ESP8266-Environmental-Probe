@@ -6633,8 +6633,8 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <label x="215.9" y="88.9" size="1.778" layer="95" rot="R90"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="88.9" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
 <junction x="215.9" y="88.9"/>
+<wire x1="208.28" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OSCI" class="0">
