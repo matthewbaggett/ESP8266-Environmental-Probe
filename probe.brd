@@ -150,10 +150,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="50.8" y2="0" width="0" layer="20"/>
-<wire x1="50.8" y1="0" x2="50.8" y2="25.4" width="0" layer="20"/>
-<wire x1="50.8" y1="25.4" x2="0" y2="25.4" width="0" layer="20"/>
-<wire x1="0" y1="25.4" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="3.175" y1="0" x2="47.625" y2="0" width="0" layer="20"/>
+<wire x1="47.625" y1="0" x2="50.8" y2="3.175" width="0" layer="20" curve="90"/>
+<wire x1="50.8" y1="3.175" x2="50.8" y2="22.225" width="0" layer="20"/>
+<wire x1="50.8" y1="22.225" x2="47.625" y2="25.4" width="0" layer="20" curve="90"/>
+<wire x1="47.625" y1="25.4" x2="3.175" y2="25.4" width="0" layer="20"/>
+<wire x1="3.175" y1="25.4" x2="0" y2="22.225" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="22.225" x2="0" y2="3.175" width="0" layer="20"/>
+<wire x1="0" y1="3.175" x2="3.175" y2="0" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1134,7 +1138,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="JP1" pad="6"/>
 <contactref element="JP1" pad="5"/>
 <contactref element="R3" pad="1"/>
-<wire x1="20.1325" y1="17.4625" x2="18.89125" y2="18.10125" width="0" layer="19" extent="1-16"/>
+<via x="21.43125" y="23.65375" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="U$3" pad="3"/>
